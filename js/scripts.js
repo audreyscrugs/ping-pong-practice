@@ -14,6 +14,8 @@ $function() {
             } else {
                 name = int;
             }
-            $("#display").append("<li>"+num+"</li>");
+            $("#display").append("<li>"+name+"</li>");
+
+          event.preventDefault();
        });
 });
